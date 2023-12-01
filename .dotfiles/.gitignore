@@ -1,0 +1,4 @@
+# Include everything again
+!*
+# But exclude local files (secrets)
+*.local

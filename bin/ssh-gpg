@@ -1,0 +1,4 @@
+#!/bin/bash
+
+KEY=$(ssh-add -L | grep ssh-ed25519)
+echo "key::$KEY"
