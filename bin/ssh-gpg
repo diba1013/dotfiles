@@ -1,4 +1,4 @@
 #!/bin/bash
 
-KEY=$(ssh-add -L | grep ssh-ed25519)
+KEY=$(ssh-add -L | grep pc:wsl:sign)
 echo "key::$KEY"

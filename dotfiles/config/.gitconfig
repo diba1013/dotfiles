@@ -1,6 +1,6 @@
 [core]
 	editor = code --wait
-	excludesfile = ~/.dotfiles/config/.gitignore.local
+	excludesfile = ~/dotfiles/dotfiles/config/.gitignore.local
 	filemode = false
 	eol = lf
 	autocrlf = input

@@ -19,3 +19,18 @@ alias now="fetch && rebase origin/master && push!"
 alias ll="ls -alF"
 alias la="ls -A"
 alias l="ls -CF"
+
+##
+# Functions
+##
+
+function repeat() {
+    local count=$1
+    local cmd=$2
+
+    for ((i = 1; i <= $count; i++)); do
+        echo "RUN $i / $count"
+        eval $cmd
+    done
+}
+export -f repeat

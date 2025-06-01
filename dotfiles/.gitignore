@@ -2,3 +2,4 @@
 !*
 # But exclude local files (secrets)
 *.local
+*.local.sh

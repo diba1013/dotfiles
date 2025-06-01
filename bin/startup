@@ -1,0 +1,9 @@
+#!/bin/env bash
+
+# Run dotfiles, but ignore file starting with dots
+for DOTFILE in `find $HOME/dotfiles/dotfiles -maxdepth 1 -type f -not -name '.*'`
+do
+    if [ -f "$DOTFILE" ]; then
+        source "$DOTFILE";
+    fi
+done

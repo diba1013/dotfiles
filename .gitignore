@@ -1,13 +1,4 @@
-# Ignore everything
-*
-
-# Except directories
-!.dotfiles
-!bin
-
-# Except files
-!.bash_profile
-!.gitconfig
-!.gitignore
-!.inputrc
-!README.md
+# Ignore IDE folders.
+.vscode
+# Ignore backup directory created during installation.
+backup
